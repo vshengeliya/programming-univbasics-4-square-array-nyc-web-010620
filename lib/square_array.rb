@@ -3,5 +3,5 @@ def square_array(array)
   while array[i] do
     new_element = array[i]**2
     end new_element
-  i +=1
+  i+=1
 end
