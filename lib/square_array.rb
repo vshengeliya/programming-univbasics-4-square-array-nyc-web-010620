@@ -1,9 +1,12 @@
-counter = 0
-def square_array(array) =[1,2,3]
-  while counter < array.length do
-    puts array[counter]**2
-    counter += 1
-  end
+def square_array(array)
+  new_array = []
+  i = 0 
+  while i < array.size do
+  new_array << (array[i]**2)
+  i += 1
+  end 
+  new_array
 end
 
-p square_array
+
+
